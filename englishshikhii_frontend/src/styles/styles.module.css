@@ -1,9 +1,10 @@
 /* styles.module.css */
 
 .container {
-    max-width: 800px;
+  width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
+   
   }
   
 .navbarLogo {
