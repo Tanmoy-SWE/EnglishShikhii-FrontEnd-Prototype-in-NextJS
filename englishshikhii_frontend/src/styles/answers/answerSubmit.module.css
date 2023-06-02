@@ -1,0 +1,132 @@
+.frame62{
+    /* box-sizing: border-box;    
+    width: 1280px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 15px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    position: relative; 
+    width: 1280px;
+    height: 100px;
+    background-color: white;
+    background-clip:padding-box;
+    border-radius: 15px;
+    border: 1px solid transparent;   
+}
+
+.frame62::before{
+    content: "";
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    z-index: -1;
+    background-image: linear-gradient(
+        #8CA30061 38%, #1AA0DA4F 31%
+    );
+    border-radius: 15px;
+}
+
+.frame61{
+    padding: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 135px;
+    width: 1224px;
+    height: 44px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.que{
+    width: 863px;
+    height: 28px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #111827;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame60{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+    width: 238px;
+    height: 48px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.submit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 35px;
+    gap: 20px;
+    width: 114px;
+    height: 43px;
+    background: linear-gradient(91.43deg, #C9E22F 0.79%, #52FFF5 117.9%);
+    border-radius: 100px;
+    border: none;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.submitButtonText{
+    width: 50px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1F2937;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.reset{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+    width: 104px;
+    height: 48px;
+    background: #FDE7E6;
+    border-radius: 100px;
+    border: none;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.resetButtonText{
+    width: 40px;
+    height: 28px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #E11900;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
