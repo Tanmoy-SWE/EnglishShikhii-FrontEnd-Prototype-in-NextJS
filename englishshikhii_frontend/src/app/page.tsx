@@ -17,7 +17,7 @@ const Home = () => {
     <QuestionCard question={''} topScore={0} averageScore={0} onClickAnswer={function (): void {
         throw new Error('Function not implemented.');
       } }/>
-     {/* <Footer /> */}
+     <Footer />
     </div>
   );
 };

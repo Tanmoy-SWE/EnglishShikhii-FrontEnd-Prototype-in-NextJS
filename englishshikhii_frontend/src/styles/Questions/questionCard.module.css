@@ -1,62 +1,282 @@
-.card {
-  height: 217px;
-  width: 400px;
-  left: 0px;
-  top: 0px;
-  border-radius: 15px;
+.question_card {
+  /* question_card */
+
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 24px;
-  
-  background: linear-gradient(180deg, rgba(140, 163, 0, 0.38) 0%, rgba(26, 160, 218, 0.31) 100%),
-  linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  gap: 10px;
 
-  border: 1px solid;
+  width: 400px;
+  height: 217px;
 
-  border-image-source: linear-gradient(180deg, rgba(140, 163, 0, 0.38) 0%, rgba(26, 160, 218, 0.31) 100%);
+  background: #FFFFFF;
+
+
+  border-radius: 15px;
+  border: 2px solid #b3b0b0;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+
 
 }
 
-.card.font {
-  height: 56px;
+
+.frame36 {
+  /* Frame 36 */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+
   width: 352px;
-  left: 0px;
-  top: 0px;
-  border-radius: nullpx;
-  font-family: Lato;
-  font-size: 18px;
+  height: 169px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+}
+
+.frame33{
+  /* Frame 33 */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 352px;
+  height: 97px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.Text {
+  /* What is your opinion on the increasing popularity of electric vehicles? */
+
+
+  width: 352px;
+  height: 56px;
+
+  font-family: 'Lato';
+  font-style: normal;
   font-weight: 600;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
-  background: rgba(17, 24, 39, 1);
-
-}
-
-.question {
   font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 8px;
+  line-height: 28px;
+  /* or 156% */
+
+
+  /* Gray/900 */
+
+  color: #111827;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
 }
 
-.scores {
+.frame32 {
+  /* Frame 32 */
+
+
+  /* Auto layout */
+
   display: flex;
   flex-direction: row;
-  margin-bottom: 8px;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+
+  width: 192px;
+  height: 17px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
-.top-score,
-.average-score {
-  margin-right: 16px;
+.frame30 {
+  /* Frame 30 */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 91px;
+  height: 17px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.answer-button {
-  background-color: #0080ff;
-  color: #ffffff;
-  border: none;
-  border-radius: 4px;
-  padding: 8px 16px;
-  cursor: pointer;
+.scoreType {
+  /* Top score: */
+
+
+  width: 70px;
+  height: 17px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  /* Gray/500 */
+
+  color: #6B7280;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.answer-button:hover {
-  background-color: #0066cc;
+.scoreValue {
+  /* 8.5 */
+
+
+  width: 20px;
+  height: 17px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  /* Gray/800 */
+
+  color: #1F2937;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame35 {
+  /* Frame 35 */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 20px;
+  gap: 10px;
+
+  width: 97px;
+  height: 40px;
+
+  background: linear-gradient(91.43deg, rgba(151, 204, 38, 0.11) 0.79%, rgba(81, 211, 172, 0.1) 117.9%);
+  border-radius: 100px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.frame34 {
+  /* Frame 34 */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  width: 57px;
+  height: 20px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Submit {
+  /* Go */
+
+
+width: 21px;
+height: 19px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+/* Gray/800 */
+
+color: #1F2937;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
 }
