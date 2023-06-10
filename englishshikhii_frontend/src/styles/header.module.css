@@ -3,10 +3,19 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+
   }
-  
+
   .logo {
-    font-size: 24px;
+    width: 182px;
+    height: 148px;
+/*     
+    background: url(zyro-image); */
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
   
   .language select {

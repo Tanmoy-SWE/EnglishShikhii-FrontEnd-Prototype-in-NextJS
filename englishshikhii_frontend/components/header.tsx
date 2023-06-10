@@ -4,7 +4,9 @@ import styles from '../src/styles/header.module.css';
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>Your Logo</div>
+      <div className={styles.logoDiv}>
+      <img className={styles.logo} src="/assets/transparentLogo.png" alt="My Image"/>
+      </div>
 
       <div className={styles.frame4623}>
       <div className={styles.frame7}>
