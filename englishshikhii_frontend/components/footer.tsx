@@ -4,16 +4,22 @@ import styles from '../src/styles/footer.module.css';
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className={styles.container}>
-        <div className={styles.links}>Links</div>
-        <div className={styles.frame4630}>
-            
-           <p className={styles.questions}>Questions</p> 
-            <p className={styles.questions}>Login</p>
-            <p className={styles.questions}>Terms & Conditions</p>
-            <p className={styles.questions}>Privacy</p>
-            
+
+      <div className={styles.frame4629}>
+        <div className={styles.logodiv}>
+        <img className={styles.logo} src="/assets/dark_logo.svg" alt="My Image"/>
         </div>
+      
+        <div className={styles.frame4631}>
+          <p className={styles.links}>Links</p>
+          <div className={styles.frame4630}>
+            <h6 className={styles.questions}>Questions</h6>
+            <h6 className={styles.login}>Login</h6>
+            <h6 className={styles.tandc}>Terms and Conditions</h6>
+            <h6 className={styles.privacy}>Privacy Policy</h6>
+          </div>
+        </div>
+
         <div className={styles.frame4634}>
             <div className={styles.frame4632}>
                <p className={styles.stayconnected}>Stay Connected</p> 
